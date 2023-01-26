@@ -160,12 +160,12 @@ public class UpdateNote extends AppCompatActivity {
             delNo = view.findViewById(R.id.delete_no);
             delYes = view.findViewById(R.id.delete_yes);
             delNo.setOnClickListener(view1 -> {
-                Toast.makeText(this, "", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "Canceled while deleting notes ", Toast.LENGTH_SHORT).show();
                 sheetDialog.dismiss();
             });
             delYes.setOnClickListener(view2 -> {
                 notesViewModel.deleteNote(uId);
-                Toast.makeText(this, "Notes is Canceled from delete", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "Notes is deleted successfully", Toast.LENGTH_SHORT).show();
                 finish();
             });
             sheetDialog.show();

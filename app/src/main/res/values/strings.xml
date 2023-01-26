@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">NoteTakerProjectSimister5thCs</string>
     <string name="sure_you_want_ro_delete_note_or_not">sure,you want ro delete note or not?</string>
+    <string name="subtitle">subtitle..</string>
 </resources>

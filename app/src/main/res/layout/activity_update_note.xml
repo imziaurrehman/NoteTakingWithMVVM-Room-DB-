@@ -14,25 +14,27 @@
         android:layout_height="50dp"
         android:layout_marginLeft="20dp"
         android:layout_marginTop="50dp"
+        android:paddingStart="12dp"
         android:layout_marginRight="20dp"
         android:background="@drawable/ed_style"
         android:backgroundTint="@color/white"
         android:fontFamily="@font/ptsans_regular"
         android:hint="title.."
-        android:paddingStart="12dp" />
+        />
 
     <EditText
         android:id="@+id/edUpdateSubTitle"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:layout_marginLeft="20dp"
-        android:layout_marginTop="25dp"
+        android:layout_marginTop="50dp"
+        android:paddingStart="12dp"
         android:layout_marginRight="20dp"
         android:background="@drawable/ed_style"
         android:backgroundTint="@color/white"
         android:fontFamily="@font/ptsans_regular"
-        android:hint="subtitle.."
-        android:paddingStart="12dp" />
+        android:hint="@string/subtitle"
+        />
 
 
     <LinearLayout

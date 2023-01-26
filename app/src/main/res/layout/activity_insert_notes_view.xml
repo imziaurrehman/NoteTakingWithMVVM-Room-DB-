@@ -32,7 +32,7 @@
         android:backgroundTint="@color/white"
         android:fontFamily="@font/ptsans_regular"
         android:hint="subtitle.."
-        android:paddingEnd="12dp" />
+        android:paddingStart="12dp" />
 
 
     <LinearLayout

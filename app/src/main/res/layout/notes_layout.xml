@@ -27,17 +27,6 @@
 
             />
 
-
-        <!--        <ImageView-->
-        <!--            android:id="@+id/popUpMenuBtn"-->
-        <!--            android:layout_width="wrap_content"-->
-        <!--            android:layout_height="wrap_content"-->
-        <!--            android:layout_gravity="end"-->
-        <!--            android:background="@drawable/ic_baseline_more_vert_24"-->
-
-
-        <!--            />-->
-
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -47,8 +36,8 @@
                 android:id="@+id/titleView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="2dp"
-                android:layout_marginRight="30dp"
+                android:layout_marginStart="2dp"
+                android:layout_marginEnd="30dp"
                 android:fontFamily="@font/ptsans_bold"
                 android:padding="6dp"
                 android:text="Title"
@@ -73,19 +62,6 @@
                 android:fontFamily="@font/ptsans_bold"
                 android:padding="6dp" />
 
-            <!--            <TextView-->
-            <!--                android:id="@+id/notesView"-->
-            <!--                android:layout_width="match_parent"-->
-            <!--                android:layout_height="wrap_content"-->
-            <!--                android:layout_marginLeft="2dp"-->
-            <!--                android:layout_marginRight="2dp"-->
-            <!--                android:fontFamily="@font/ptsans_regular"-->
-            <!--                android:padding="6dp" />-->
-
-
         </LinearLayout>
-
     </androidx.cardview.widget.CardView>
-
-
 </LinearLayout>
